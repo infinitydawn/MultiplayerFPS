@@ -14,17 +14,13 @@ public class Weapon : MonoBehaviour
 
     #region MonoBehavior callbacks
 
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Equip(0);
+            Debug.Log("EQUIPPED");
         }
     }
     #endregion
@@ -39,6 +35,7 @@ public class Weapon : MonoBehaviour
         t_newEquipment.transform.localEulerAngles = Vector3.zero;
 
         currentWeapon = t_newEquipment;
+        
     }
     #endregion
 }

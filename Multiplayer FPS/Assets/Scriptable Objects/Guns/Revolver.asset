@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Revolver
   m_EditorClassIdentifier: 
   Name: Revolver
-  fireRate: 0
+  fireRate: 2
   prefab: {fileID: 3857507908459691930, guid: c610015facd95cd4f9507254582bd375, type: 3}
