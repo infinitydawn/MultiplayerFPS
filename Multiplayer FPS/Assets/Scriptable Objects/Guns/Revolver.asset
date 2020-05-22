@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb43c048f36abdf47a09e37735456133, type: 3}
   m_Name: Revolver
   m_EditorClassIdentifier: 
+  aimSpeed: 10
   Name: Revolver
   fireRate: 2
   prefab: {fileID: 3857507908459691930, guid: c610015facd95cd4f9507254582bd375, type: 3}
