@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class LookAround : MonoBehaviour
+public class LookAround : MonoBehaviourPunCallbacks
 {
     #region Variables
     public static bool cursorLocked = true;
@@ -34,10 +35,22 @@ public class LookAround : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        //Check if this is the controlled Player
+        if (!photonView.IsMine)
+        {
+            return;
+        }
+        
+        
+        
+        
+        
+        //Further code works only for the controlled instance of the player
+
         SetY();
         SetX();
         updateCursorLock();
+
     }
     #endregion
 

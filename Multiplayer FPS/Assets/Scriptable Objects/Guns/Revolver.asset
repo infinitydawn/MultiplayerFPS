@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aimSpeed: 10
   Name: Revolver
-  fireRate: 2
+  bloom: 20
+  kickBack: 0.5
+  recoil: 10
+  fireRate: 0.01
   prefab: {fileID: 3857507908459691930, guid: c610015facd95cd4f9507254582bd375, type: 3}

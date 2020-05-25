@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Photon.Pun;
 
 namespace fpsMultiplayer
 {
-    public class Sway : MonoBehaviour
+    public class Sway : MonoBehaviourPunCallbacks
     {
         #region Variables
         public float intensity;
         public float smooth;
         private Quaternion rotOrigin;
+
         #endregion
 
         #region MonoBehavior callbacks
@@ -21,6 +22,10 @@ namespace fpsMultiplayer
         }
         private void Update()
         {
+            //Check if this is the controlled Player
+            
+            //Further code works only for the controlled instance of the player
+
             updateSway();
         }
         #endregion

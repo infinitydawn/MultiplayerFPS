@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 3857507907893585473}
   - component: {fileID: 3857507907893585484}
   - component: {fileID: 3857507907893585487}
-  - component: {fileID: 3857507907893585486}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,20 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &3857507907893585486
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3857507907893585472}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &3857507908052086928
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,7 +88,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3857507908052086929}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3857507908220961873}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Design
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +158,7 @@ GameObject:
   - component: {fileID: 3857507908269155984}
   - component: {fileID: 3857507908269155987}
   - component: {fileID: 3857507908269155986}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +235,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 3857507908269155988}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
@@ -267,7 +252,7 @@ GameObject:
   - component: {fileID: 3857507908438250733}
   - component: {fileID: 3857507908438250732}
   - component: {fileID: 3857507908438250735}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +329,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 3857507908438250721}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
@@ -359,7 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3857507908459691931}
   - component: {fileID: 2191482720604513485}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Revolver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +390,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3857507908904431697}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ADS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,7 +420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3857507909059240885}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Resources
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -465,7 +450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3857507909402571939}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: States
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +485,7 @@ GameObject:
   - component: {fileID: 3857507909440215463}
   - component: {fileID: 3857507909440215462}
   - component: {fileID: 3857507909440216665}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -577,7 +562,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 3857507909440216667}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
@@ -594,7 +579,7 @@ GameObject:
   - component: {fileID: 3857507909494227511}
   - component: {fileID: 3857507909494227510}
   - component: {fileID: 3857507909494227497}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -671,7 +656,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 3857507909494227499}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
@@ -685,7 +670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3857507909517655464}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
